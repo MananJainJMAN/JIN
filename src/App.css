@@ -1,0 +1,235 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.css-dip3t8 {
+  position: relative;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 3;
+  background-color: rgb(94 173 248 / 70%);
+}
+
+h1{
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(27, 101, 171);
+  margin-bottom: 3px;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+p{
+
+  padding-left: 20PX;
+  padding-right: 20px;
+  color: rgb(12, 65, 114);
+  font-weight: bold;
+}
+
+.headline
+{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+}
+
+.main
+{
+  width: 100%;
+}
+.headBlock
+{
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 60px;
+  background-color: rgb(29, 134, 226);
+}
+.headBlock p{
+  padding-top: 10px;
+  padding-left: 10PX;
+  
+  color: rgb(255, 255, 255);
+  font-weight:lighter;
+  font-family: 'Poppins', sans-serif;
+
+
+}
+.options
+{
+  margin-top: -20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(255, 209, 220);
+  height: 90px;
+}
+
+.option_content
+{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3px;
+  
+  width:100%;
+
+}
+.option_content p{
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.task1
+{
+  margin-top: -20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background-color: rgb(255, 255, 255);
+  height: 70px;
+  
+}
+
+.task1_content
+{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1px;
+  padding-top: 10PX;
+
+  
+ 
+
+}
+.task1_content p{
+  color: rgb(133, 133, 133);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.p-dropdown-label {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  flex: 1 1 auto;
+  width: 1%;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+  color: #8585a5;
+}
+
+.search
+{
+  background-color: #ffffff;
+ 
+ 
+  width: 9%;
+  height: 50px;
+
+}
+.search:hover
+{
+  border: 1px solid rgb(171, 171, 171);
+}
+
+.digit
+{
+  background-color: #ffffff;
+  border: 1px solid white;
+  
+ 
+  width: 4%;
+  height: 45px;
+}
+.digit:hover
+{
+  border: 1px solid rgb(171, 171, 171);
+}
+
+
+.task2
+{
+  margin-top: -20px;
+  margin-left: 13px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background-color: rgb(255, 255, 255);
+  height: 70px;
+  
+}
+.midline {
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-top: -22PX;
+  margin-bottom: 20PX;
+  border-color:rgba(184, 184, 184, 0.412);
+  
+}
+.total
+{
+  margin-left: 30px;
+  margin-right: 20px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.total_content
+{
+  display: flex;
+  justify-content: left;
+}
+.total_content p{
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  flex: 1 1 auto;
+  width: 1%;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  padding: 2px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  color: #8585a5;
+
+}
